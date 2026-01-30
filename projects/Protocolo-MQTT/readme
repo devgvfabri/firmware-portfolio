@@ -1,0 +1,4 @@
+O projeto teve como objetivo o aprendizado do protocolo de comunicação MQTT
+
+Em que o dois grupos foram unidos para desenvolver dois subsistemas compostos por dois arduinos e dois ESP32
+O objetivo era pedir e enviar dados a outro subsistema via MQTT em tópicos diferentes dentro de um mesmo broker

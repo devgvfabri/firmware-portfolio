@@ -1,0 +1,4 @@
+O sistema seria uma continuação do roomba simplificado porém foram adicionados sensores para serem utilizados de acordo com estado
+foram adicionados sensores ldr, dht e distância.
+A comunicação entre os dois dispositivos foi feita por jumpers, para em próximas atividades ser atualizada para comunicação serial, a 
+fim de explicitar a vantagem da comunicação serial.

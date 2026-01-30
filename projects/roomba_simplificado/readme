@@ -1,0 +1,10 @@
+A atividade propõe a implementação de um sistema embarcado dividido em dois subsistemas: um principal, utilizando o ESP32, 
+e um secundário, utilizando o Arduino Mega. O sistema deve reproduzir o comportamento de um robô aspirador, 
+controlado por uma máquina de estados.
+
+Após o reset, o sistema inicia no estado Idle. A partir de comandos recebidos pelo monitor serial, ele pode iniciar a 
+limpeza (Cleaning), retornar para a base (Docking) ou entrar em carregamento (Charging). As transições entre os estados 
+ocorrem por comandos do usuário (como ‘a’ ou ‘b’) ou automaticamente após intervalos de tempo (2000 ms).
+
+O ESP32 atua como controlador principal do fluxo do sistema, enquanto o Arduino Mega executa funções auxiliares/sensoriamento, 
+havendo comunicação entre eles para coordenar as ações.

@@ -1,0 +1,16 @@
+Projeto final apresentado à disciplina de Internet das Coisas como parte dos requisitos para obtenção de nota.
+
+O projeto foi apresentado em grupo, composto por:
+
+Gabriel Victor Fabri do Carmo
+Loren Pena Rodriguez Lorenzetto
+Rennam Victor Cabral de Faria
+
+O objetivo do projeto foi desenvolver um dispositivo IoT que contribuísse com um dos Objetivos de Desenvolvimento Sustentável (ODS) da ONU.
+
+Assim, decidiu-se desenvolver um dispositivo para monitorar a qualidade do sono. O dispositivo deve permanecer ligado durante toda a noite, 
+monitorando dados do sono de uma pessoa, como agitação (aceleração/giro), temperatura, umidade e luminosidade.
+
+Com isso, foi criado um sistema no qual sensores conectados a um Arduino são constantemente acionados. Esses dados são enviados do Arduino 
+para um ESP32 por meio de comunicação I²C. O ESP32, que possui módulo Wi-Fi, envia as informações para um servidor via MQTT, responsável
+por processar os dados e exibi-los em um dashboard.

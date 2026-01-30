@@ -1,0 +1,7 @@
+O projeto teve como objetivo o aprendizado do protocolo de comunicação Coap
+
+Foram criados dois grupos de pessoas em que um grupo era responsável pelo desenvolvimento do sistema master
+e outro do sistema slave.
+
+O código refere-se ao sistema slave, em que ele se conecta via Coap ao master, e envia dados de sensores somente
+quando solicitado. 

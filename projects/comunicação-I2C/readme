@@ -1,0 +1,13 @@
+A atividade solicita a implementação de um sistema com dois microcontroladores: o ESP32 (principal) e o Arduino (secundário), comunicando-se via I²C.
+
+O Arduino é responsável por coletar dados dos sensores DHT11 (temperatura e umidade) e HC-SR04 (distância), enquanto o ESP32 
+deve exibir um menu no Monitor Serial com as opções:
+
+(a) Temperatura
+
+(b) Umidade
+
+(c) Distância
+
+Ao selecionar uma opção, o ESP32 deve solicitar o dado ao Arduino via I²C e mostrar o valor medido com 3 casas decimais no 
+Monitor Serial.
